@@ -19,6 +19,8 @@
   "devDependencies": {
     "eslint": "7.19.0",
     "eslint-config-google": "0.14.0",
+    "jsonfile": "6.1.0",
+    "node-fetch": "2.6.1",
     "prettier": "2.2.1"
   }
 }
