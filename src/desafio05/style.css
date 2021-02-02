@@ -1,0 +1,39 @@
+.frutas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.frutas .fruta {
+  border: 1px solid #4b4b4b;
+  background-color: #f0f0f0;
+  padding: 6px;
+  text-align: center;
+  margin: 5px;
+  width: 200px;
+}
+
+.frutas button {
+  margin: 20px;
+  height: 30px;
+  width: 200px;
+  background-color: #ebebeb;
+  border: 1px solid black;
+  border-radius: 1px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
